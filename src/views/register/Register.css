@@ -1,0 +1,35 @@
+.register-screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    min-width: 40vh;
+  }
+
+  div[role="alert"] {
+    position: absolute;
+    top: 30%;
+  }
+  
+  .register-heading {
+    margin-bottom: 1rem;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .register-form button {
+    margin-top: 1rem;
+  }
+  
